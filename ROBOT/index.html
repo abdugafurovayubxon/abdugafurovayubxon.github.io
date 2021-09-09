@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+
+</head>
+<body>
+    <div class="robot">
+        <model-viewer src="RobotExpressive.glb"  id="robot" ar ar-modes="webxr scene-viewer quick-look" environment-image="neutral" auto-rotate camera-controls skybox-image="stadium_01_4k.hdr" autoplay animation-name="Running"></model-viewer >
+            <div class="btn">
+                <button type="button" onclick="stop()"> To'ta didim  </button>
+                <button type="button" onclick="run()"> Yugur didim</button>
+                <button type="button" onclick="dance()"> oyinga tush</button>
+                <button type="button" onclick="jump ()">Sakra</button>
+            </div>
+    </div>
+    <script src="robot.js"></script>
+</body>
+</html>

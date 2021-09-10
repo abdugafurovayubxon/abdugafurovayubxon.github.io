@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:yellow;
+}
+.box1{
+    width: 70%;
+    margin: 0 auto;
+    margin-top:200px;
+}
+#weight{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5em;
+    padding: 10px;
+    border-color: lightseagreen;
+}
+#height{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 5em;
+}
+#name{
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5em;
+    border-color: red ;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.box2{
+    margin: 0 400px;
+}
